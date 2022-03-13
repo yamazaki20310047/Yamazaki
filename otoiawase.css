@@ -1,0 +1,188 @@
+    header {
+        height: 350px;
+        background-size: contain;
+        background-attachment: fixed;
+        background-image: url("SAMUNE.jpg");
+    }
+    
+    #header-title {
+        padding-top: 300px;
+        padding-left: 1450px;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-family: "MS Mincho", "M S 明朝";
+    }
+    
+    nav ul {
+        background-size: contain;
+        background-attachment: fixed;
+        list-style-type: none;
+        display: flex;
+        background-image: url("menuback.jpg");
+        text-align: center;
+    }
+    
+    nav a {
+        display: block;
+        width: 450px;
+        padding: 20px 0px;
+        text-align: center;
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-family: "MS Mincho", "M S 明朝";
+    }
+    
+    nav a:hover {
+        background-color: #8dc4dd;
+    }
+    
+    #概要 {
+        height: 500px;
+        padding: 30px;
+    }
+    
+    h1 {
+        background-color: #ffffff;
+        border-radius: 5px;
+        border-left: solid 15px #ffffff;
+        padding: 6px 10px 4px;
+        margin-bottom: 20px;
+        box-shadow: 5px 5px 10px #ffffff;
+        font-family: "MS Mincho", "M S 明朝";
+        text-align: center;
+        color: #000000;
+    }
+    
+    footer {
+        background-color: #ffffff;
+        padding: 5px;
+        text-align: right;
+        font-size: 15px;
+        font-family: "MS Mincho", "M S 明朝";
+        color: #9b8080;
+        text-align: right;
+        margin-top: auto;
+    }
+    
+    p.setumei {
+        font-size: 30px;
+        font-family: "MS MINCHO", "M S 明朝";
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    
+    p.sample {
+        display: flex;
+    }
+    
+    p.sample img {
+        width: 200px;
+    }
+    
+    h1.osusume {
+        text-align: left;
+        font-family: "MS MINCHO", "M S 明朝";
+    }
+    
+    p.shsetumei {
+        font-size: 29px;
+        font-family: "MS MINCHO", "M S 明朝";
+        text-align: center;
+    }
+    
+    #osusume1 {
+        float: left;
+        margin-right: 15;
+        width: 30%;
+        height: 30%;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #concert {
+        width: 90%;
+        height: 80%;
+        position: relative;
+        left: 0px;
+    }
+    
+    .otoiawase {
+        width: 80%;
+        margin: 0 auto;
+        font-size: medium;
+        font-family: "MS MINCHO", "M S 明朝";
+    }
+    
+    .otoiawase th {
+        text-align: center;
+    }
+    
+    th {
+        width: 500px;
+        height: 50px;
+    }
+    
+    textarea.longtext {
+        height: 200px;
+        width: 100%;
+    }
+    
+    table.otoiawase {
+        width: 50%;
+        margin: 0 auto;
+        border-collapse: separate;
+        border-spacing: 0px 15px;
+        font-size: 20px;
+    }
+    
+    table.otoiawase th,
+    table.otoiawase td {
+        padding: 10px;
+    }
+    
+    table.otoiawase th {
+        background: #ffffffde;
+        vertical-align: middle;
+        text-align: left;
+        overflow: visible;
+        position: relative;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    table.otoiawase td {
+        padding: 10px;
+        background: #f8f8f8de;
+        width: 500px;
+        font-size: medium;
+        font-weight: 600;
+    }
+    
+    input.text {
+        text-align: left;
+        width: 450px;
+        height: 30px;
+        font-size: medium;
+    }
+    
+    textarea.longtext {
+        padding: 10px;
+        letter-spacing: 1px;
+        height: 200px;
+        width: 100%;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+    
+    button {
+        text-align: center;
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+        font-family: "MS Mincho", "M S 明朝";
+    }

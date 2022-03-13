@@ -1,0 +1,34 @@
+.allc {
+    display: flex;
+}
+
+.productname {
+    font-size: 40px;
+    font-family: "MS Mincho", "M S 明朝";
+}
+
+h3 {
+    font-family: "MS Mincho", "M S 明朝";
+    font-size: 30px;
+}
+
+.buy {
+    display: flex;
+}
+
+.btn {
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    font-family: "MS Mincho", "M S 明朝";
+}
+
+p {
+    font-size: 30px;
+    font-family: "MS Mincho", "M S 明朝";
+}

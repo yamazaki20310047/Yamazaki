@@ -1,0 +1,24 @@
+.syohintitle {
+    font-weight: 700px;
+    font-family: "MS Mincho", "M S 明朝";
+    font-size: 40px;
+}
+
+.syouhin {
+    font-size: 30px;
+    font-family: "MS Mincho", "M S 明朝";
+}
+
+.pro {
+    display: flex;
+}
+
+.pic {
+    height: 500px;
+    width: 500px;
+}
+
+.product {
+    justify-content: center;
+    max-width: 100%;
+}
